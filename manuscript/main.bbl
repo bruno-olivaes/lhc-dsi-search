@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{sornette1998}
+Didier Sornette.
+\newblock Discrete scale invariance and complex dimensions.
+\newblock {\em Physics Reports}, 297(5):239--270, 1998.
+
+\bibitem{lhcbrun2}
+{LHCb Collaboration}.
+\newblock Measurement of the $b^0_s \to \mu^+\mu^-$ branching fraction and
+  effective lifetime and search for $b^0 \to \mu^+\mu^-$ decays.
+\newblock {\em Physical Review Letters}, 128(4):041801, 2022.
+
+\bibitem{cmsopendata2010}
+{CMS Collaboration}.
+\newblock Dimuon event information derived from the run2010b public mu dataset.
+\newblock {\em CERN Open Data Portal}, 2010.
+
+\bibitem{olivaes2026planck}
+Bruno~Lu\c{c}ardo Olivaes.
+\newblock Constraints on primordial discrete scale invariance from the planck
+  2018 temperature power spectrum.
+\newblock {\em Zenodo Preprint}, 2026.
+
+\bibitem{lomb1976}
+Nicholas~R. Lomb.
+\newblock Least-squares frequency analysis of unequally spaced data.
+\newblock {\em Astrophysics and Space Science}, 39(2):447--462, 1976.
+
+\bibitem{scargle1982}
+Jeffrey~D. Scargle.
+\newblock Studies in astronomical time series analysis. {II}. statistical
+  aspects of spectral analysis of unevenly spaced data.
+\newblock {\em The Astrophysical Journal}, 263:835--853, 1982.
+
+\bibitem{schwarz1978}
+Gideon Schwarz.
+\newblock Estimating the dimension of a model.
+\newblock {\em The Annals of Statistics}, 6(2):461--464, 1978.
+
+\end{thebibliography}
