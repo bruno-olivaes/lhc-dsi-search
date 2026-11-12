@@ -62,3 +62,4 @@ pdflatex main.tex
 ```
 
 Licensed under the [MIT License](LICENSE).
+
