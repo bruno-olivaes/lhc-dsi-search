@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.6)  11 NOV 2026 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.6)  14 NOV 2026 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,10 +471,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4 <./figures/fig1_lhc_dsi_periodogram.pdf>]
-Overfull \hbox (22.79115pt too wide) in paragraph at lines 163--164
+Overfull \hbox (19.74948pt too wide) in paragraph at lines 163--164
 \OT1/cmr/m/n/10.95 scripts are pre-served in the open repos-i-tory [][]$\OT1/cm
 tt/m/n/10.95 https : / / github . com / bruno-[]olivaes / lhc-[]dsi-[]search$[]
-[]\OT1/cmr/m/n/10.95 . 
+[]
+ []
+
+
+Overfull \hbox (1.2763pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10.95 and per-ma-nently archived on Zen-odo un-der DOI [][]$\OT1/c
+mtt/m/n/10.95 https : / / doi . org / 10 . 5281 / zenodo . 24149840$[][]\OT1/cm
+r/m/n/10.95 . 
  []
 
 (main.bbl
@@ -508,7 +515,7 @@ Here is how much of TeX's memory you used:
  39457 multiletter control sequences out of 15000+600000
  642777 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1553b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1568b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\bruno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -532,9 +539,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/br
 uno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 /Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb>
-Output written on main.pdf (6 pages, 330932 bytes).
+Output written on main.pdf (6 pages, 332823 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
+ 350 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

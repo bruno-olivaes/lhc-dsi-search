@@ -92,9 +92,10 @@ def stage3_certify(u, residuals, stage2, sigma=None, n_bootstrap=1000, rng=None)
     # Gate 1: Resolubilidade espectral (Rayleigh & Nyquist)
     gate_resolvable = bool(omega_min <= omega <= omega_max)
 
-    # Gate 2: Significância de Amplitude (> 2.0 * RMS)
+    # Gate 2: Significância de Amplitude (> 2.0 * RMS do ruído residual pós-ajuste)
     y_work = residuals - residuals.mean()
-    rms_noise = float(np.sqrt(np.mean(y_work**2)))
+    y_model = _sinusoid(u_work, stage2["amp"], omega, stage2["phi"])
+    rms_noise = float(np.sqrt(np.mean((y_work - y_model) ** 2)))
     gate_amplitude = bool(abs(stage2["amp"]) > 2.0 * rms_noise)
 
     # Gate 3: Precisão Paramétrica (sigma_lambda / lambda_hat < 0.20)
@@ -121,7 +122,6 @@ def stage3_certify(u, residuals, stage2, sigma=None, n_bootstrap=1000, rng=None)
     # Gate 5: Critério de Informação Bayesiana (Delta BIC = BIC_null - BIC_DSI > 10.0)
     err = np.full_like(y_work, rms_noise) if sigma is None else np.asarray(sigma)
     err = np.where(err <= 0, rms_noise, err)
-    y_model = _sinusoid(u_work, stage2["amp"], omega, stage2["phi"])
 
     # Log-likelihood gaussiana
     loglike_null = -0.5 * np.sum((y_work / err)**2 + np.log(2.0 * np.pi * err**2))

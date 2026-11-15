@@ -37,7 +37,7 @@
 \maketitle
 
 \begin{abstract}
-We adapt the certified three-stage Discrete Scale Invariance (DSI) metrological protocol---originally formulated for the Cosmic Microwave Background in Paper~1---to systematically search for scale-invariant log-periodic modulations in particle mass spectra at the Large Hadron Collider (LHC). Utilizing 62,214 opposite-sign dimuon ($\mu^+\mu^-$) collision events from the CERN Open Data Portal across $m_{\mu\mu} \in [2.0, 110.0]\,\text{GeV}$, we transform the invariant mass into logarithmic coordinates $u = \ln(m / 1\,\text{GeV})$ and evaluate standardized residuals against a smooth Standard Model Drell--Yan continuum. Across the clean high-mass Drell--Yan window ($11 \le m \le 75\,\text{GeV}$), the primary spectral peak candidate at $\hat{\lambda} = 2.902 \pm 0.075$ completely fails the amplitude significance gate ($A = 2.15 < 2.0\times\text{RMS} = 4.08$) and yields a look-elsewhere-corrected bootstrap significance of $p_{\text{corrected}} = 0.324$. Across the full wide-band spectrum ($2 \le m \le 110\,\text{GeV}$), apparent periodicities are ruled out as single harmonic modulations by gate failure. Furthermore, neither candidate exhibits scale parity with cosmological Planck constraints ($\lambda_{\text{Planck}} = 4.12 \pm 0.31$, $p=0.975$). Finally, we explore number-theoretic modulo-9 arithmetic relationships across standard vector meson mass ratios, establishing rigorous empirical null baselines that constrain hypothetical conformal mass ladders in high-energy physics.
+We adapt the certified three-stage Discrete Scale Invariance (DSI) metrological protocol---originally formulated for the Cosmic Microwave Background in Paper~1---to systematically search for scale-invariant log-periodic modulations in particle mass spectra at the Large Hadron Collider (LHC). Utilizing 62,214 opposite-sign dimuon ($\mu^+\mu^-$) collision events from the CERN Open Data Portal across $m_{\mu\mu} \in [2.0, 110.0]\,\text{GeV}$, we transform the invariant mass into logarithmic coordinates $u = \ln(m / 1\,\text{GeV})$ and evaluate standardized residuals against a smooth Standard Model Drell--Yan continuum. Across the clean high-mass Drell--Yan window ($11 \le m \le 75\,\text{GeV}$), the primary spectral peak candidate at $\hat{\lambda} = 2.902 \pm 0.075$ completely fails the amplitude significance gate ($A = 2.15 < 2.0\times\text{RMS}_{\text{resid}} = 2.87$) and yields a look-elsewhere-corrected bootstrap significance of $p_{\text{corrected}} = 0.324$. Across the full wide-band spectrum ($2 \le m \le 110\,\text{GeV}$), apparent periodicities are ruled out as single harmonic modulations by gate failure. Furthermore, neither candidate exhibits scale parity with cosmological Planck constraints ($\lambda_{\text{Planck}} = 4.12 \pm 0.31$, $p=0.975$). Finally, we explore number-theoretic modulo-9 arithmetic relationships across standard vector meson mass ratios, establishing rigorous empirical null baselines that constrain hypothetical conformal mass ladders in high-energy physics.
 \end{abstract}
 
 \section{Introduction}
@@ -103,7 +103,7 @@ Scale Factor $\hat{\lambda}$ & $2.902 \pm 0.075$ & $5.217 \pm 0.152$ \\
 Relative Precision $\sigma_\lambda / \hat{\lambda}$ & $2.57\%$ & $2.92\%$ \\
 \midrule
 \textbf{Gate 1: Resolvability} & \textbf{PASS} ($\omega \in [3.27, 82.1]$) & \textbf{PASS} ($\omega \in [1.57, 102.4]$) \\
-\textbf{Gate 2: Amplitude Significance} & \textbf{FAIL} ($A = 2.15 < 4.08$) & \textbf{FAIL} ($A = 7.83 < 17.45$) \\
+\textbf{Gate 2: Amplitude Significance} & \textbf{FAIL} ($A = 2.15 < 2.87$) & \textbf{FAIL} ($A = 7.83 < 13.49$) \\
 \textbf{Gate 3: Precision Gate} & \textbf{PASS} ($2.6\% < 20\%$) & \textbf{PASS} ($2.9\% < 20\%$) \\
 \textbf{Gate 4: Look-Elsewhere Bootstrap} & \textbf{FAIL} ($p_{\text{corr}} = 0.324$) & \textbf{PASS} ($p_{\text{corr}} = 0.039$) \\
 \textbf{Gate 5: Information Criterion} & \textbf{PASS} ($\Delta\text{BIC} = 238.8$) & \textbf{PASS} ($\Delta\text{BIC} = 7646.0$) \\
@@ -160,7 +160,7 @@ By applying the certified five-gate DSI protocol to public LHC collision data, w
 The three-stage verification protocol once again establishes its utility as an indispensable tool for preventing false-alarm discoveries in modern precision physics.
 
 \section*{Data and Code Availability}
-The dataset analyzed in this paper is publicly available at the CERN Open Data Portal (\url{https://doi.org/10.7483/OPENDATA.CMS.7001.303}). All analysis code, figures, and verification scripts are preserved in the open repository \url{https://github.com/bruno-olivaes/lhc-dsi-search}.
+The dataset analyzed in this paper is publicly available at the CERN Open Data Portal (\url{https://doi.org/10.7483/OPENDATA.CMS.7001.303}). All analysis code, figures, and verification scripts are preserved in the open repository \url{https://github.com/bruno-olivaes/lhc-dsi-search} and permanently archived on Zenodo under DOI \url{https://doi.org/10.5281/zenodo.24149840}.
 
 \bibliographystyle{unsrt}
 \bibliography{refs}
